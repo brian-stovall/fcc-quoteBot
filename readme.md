@@ -4,7 +4,7 @@ curriculum at freeCodeCamp.
 
 Credits: 
 
-[FreeCodeCamp] (www.freecodecamp.com) for being inspiring, helpful, and free.
+[FreeCodeCamp] (http://www.freecodecamp.com) for being inspiring, helpful, and free.
 
 Twitter Bootstrap for making page styling less of a headache.
 
