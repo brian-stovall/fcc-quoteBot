@@ -7,18 +7,26 @@
 	<link rel="stylesheet" href="bootstrap.min.css"> 
 	<link rel="stylesheet" href="quote.css"> 
 	<link rel='shortcut icon' href='assets/favicon-96x96.png'>
+	<script src='twit.js' type='text/javascript'></script>
 	<script src='quotes.js' type='text/javascript'></script>
 	<script src='quote.js' type='text/javascript'></script>
 </head>
 <body>
 <div class='container-fluid'>
+
 		<div id='header' class='img-rounded page-header'>
 			<h1 id='quoteBox' class='text-center'>QuoteBot</h1>
 			<p id='authBox' class='text-center'>got quotes?</p>
-	</div>
+		</div>
+
 		<div class='row-fluid'>
 			<div id='robot' class='span8'><img class='img-responsive' src='assets/roboSuit.png'></div>
 			<div class='span4'><button id='getQuote' class='btn'>Tell me something, QuoteBot!</button></div>
 		</div>
+
+		<div class='row-fluid'>
+			<div class='span12'><button id='tweetQuote' class='btn btn-success'>Tweet this quote!</button></div>
+		</div>
 </body>
 </html>
+<!--<a href='https://twitter.com/intent/tweet' class='twitter-share-button' data-text='' data-size='large'></a>-->
