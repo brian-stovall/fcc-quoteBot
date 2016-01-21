@@ -43,13 +43,8 @@ p {
 	margin-left:1.2rem;
 }
 
-@media (max-height: 600px) {
-  #quoteBotRow {
-		top:4vh;
-	}
-  #buttonRow {
-	 top:0;
-	}
+#getQuote {
+	margin-bottom:1.2rem;
 }
 
 @media (max-height: 600px) {
@@ -60,7 +55,6 @@ p {
 	 top:0;
 	}
 }
-
 
 @media (max-height: 575px) {
   #quoteBotRow {
@@ -75,9 +69,6 @@ p {
 	}
 }
 
-#getQuote {
-	margin-bottom:1.2rem;
-}
 
 
 
