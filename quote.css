@@ -1,13 +1,21 @@
-/**{
-	border: 1px dashed blue;
-}*/
 
 body {
 	background:#08B;
 }
 
 img {
-	max-height:50vh;
+	max-height:40vh;
+	margin-right:1.2rem;
+}
+
+h1 {
+	font-size:1.25em;
+	padding-bottom:0;
+	margin-bottom:0;
+}
+
+p {
+	font-size:1em;
 }
 
 .page-header {
@@ -18,8 +26,53 @@ img {
 	margin-left:1.2rem;
 }
 
-#buttonRow {
+#authBox {
+	margin-top:0;
+	padding-top:0;
+}
+
+#quoteBotRow {
+	position:relative;
+	top:15vh;
 	margin-left:1.2rem;
+}
+
+#buttonRow {
+	position:relative;
+	top:11vh;
+	margin-left:1.2rem;
+}
+
+@media (max-height: 600px) {
+  #quoteBotRow {
+		top:4vh;
+	}
+  #buttonRow {
+	 top:0;
+	}
+}
+
+@media (max-height: 600px) {
+  #quoteBotRow {
+		top:4vh;
+	}
+  #buttonRow {
+	 top:0;
+	}
+}
+
+
+@media (max-height: 575px) {
+  #quoteBotRow {
+		top:0;
+		margin-top:0;
+	}
+	h1 {
+		font-size:.9em;
+	}
+	p {
+		font-size:.7em;
+	}
 }
 
 #getQuote {
