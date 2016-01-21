@@ -20,9 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
 	tweetQuote.addEventListener('click', () => {
 		var windowFeatures = 'menubar=yes,location=yes,status=yes,height='+
 			Math.floor(screen.height/2)+',width='+screen.wigth;
-		var textIntent ='text=' + quoteBox.textContent + '%20-' + authBox.textContent;
-		var targetHtml ='https://twitter.com/intent/tweet?url=http://hoppenmaus.github.io/fcc-quoteBot/'
-			+textIntent;
+		var textIntent ='text=' + encodeURI(quoteBox.textContent) + '%20-' + encodeURI(authBox.textContent);
+		var targetHtml ='https://twitter.com/intent/tweet?' + textIntent;
 		window.open(targetHtml, 'Tweet Window', windowFeatures);
 	});
 });
