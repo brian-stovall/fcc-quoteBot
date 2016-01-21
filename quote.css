@@ -1,9 +1,13 @@
+/**{
+	border: 1px dashed blue;
+}*/
+
 body {
 	background:#08B;
 }
-#header {
+.page-header {
+	padding:1em;
 	background:silver;
 	border :2px solid black;
 }
-
 

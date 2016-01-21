@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset='utf-8'>
-	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta charset='utf-8'/>
+	<meta name='viewport' content='width=device-width, initial-scale=1'/>
 	<title>QuoteBot</title>
-	<link rel="stylesheet" href="bootstrap.min.css"> 
-	<link rel="stylesheet" href="quote.css"> 
-	<link rel='shortcut icon' href='assets/favicon-96x96.png'>
+	<link rel="stylesheet" href="bootstrap.min.css"/> 
+	<link rel="stylesheet" href="quote.css"/> 
+	<link rel='shortcut icon' href='assets/favicon-96x96.png'/>
 	<script src='twit.js' type='text/javascript'></script>
 	<script src='quotes.js' type='text/javascript'></script>
 	<script src='quote.js' type='text/javascript'></script>
 </head>
 <body>
-<div class='container-fluid'>
+	<div class='container-fluid'>
+		<div id='quoteBotRow' class='row'>
+		
+			<div class='col-xs-12 col-sm-8 col-md-8'>
+					<div class='img-rounded page-header'>
+						<h1 id='quoteBox' class='text-center'>Got quotes?</h1>
+						<p id='authBox' class='text-center'>-QuoteBot</p>
+					</div>
+			</div>
 
-		<div id='header' class='img-rounded page-header'>
-			<h1 id='quoteBox' class='text-center'>QuoteBot</h1>
-			<p id='authBox' class='text-center'>got quotes?</p>
-		</div>
+			<div class='col-xs-12 col-sm-4'>
+					<img class='img-responsive center-block' src='assets/roboSuit.png'/>
+			</div>
 
-		<div class='row-fluid'>
-			<div id='robot' class='span8'><img class='img-responsive' src='assets/roboSuit.png'></div>
-			<div class='span4'><button id='getQuote' class='btn'>Tell me something, QuoteBot!</button></div>
 		</div>
+		
+		<div id='buttonRow' class='row' >	
+			<div class='col-sm-3 col-sm-offset-2'>
+				<button id='getQuote' class='btn btn-warning center-block'>Tell me something, QuoteBot!</button>
+			</div>
 
-		<div class='row-fluid'>
-			<div class='span12'><button id='tweetQuote' class='btn btn-success'>Tweet this quote!</button></div>
+			<div class='col-sm-3 col-sm-offset-2'>
+				<button id='tweetQuote' class='btn btn-success center-block'>Tweet this quote!</button>
+			</div>
 		</div>
+		
+	</div>
 </body>
 </html>

@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		if (!quoteBank.length) quoteBank=shuffleArr(quotes.slice());
 		var currentQuote = quoteBank.pop();
 		quoteBox.textContent = currentQuote.quote;
-		authBox.textContent = currentQuote.author;
+		authBox.textContent = '-' + currentQuote.author;
 	});
 
 	tweetQuote.addEventListener('click', () => {
