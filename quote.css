@@ -5,9 +5,26 @@
 body {
 	background:#08B;
 }
+
+img {
+	max-height:50vh;
+}
+
 .page-header {
 	padding:1em;
 	background:silver;
 	border :2px solid black;
+	margin-right:1.2rem;
+	margin-left:1.2rem;
 }
+
+#buttonRow {
+	margin-left:1.2rem;
+}
+
+#getQuote {
+	margin-bottom:1.2rem;
+}
+
+
 
