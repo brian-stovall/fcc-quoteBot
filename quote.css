@@ -23,7 +23,6 @@ p {
 	background:silver;
 	border :2px solid black;
 	margin-right:1.2rem;
-	margin-left:1.2rem;
 }
 
 #authBox {
@@ -34,13 +33,11 @@ p {
 #quoteBotRow {
 	position:relative;
 	top:15vh;
-	margin-left:1.2rem;
 }
 
 #buttonRow {
 	position:relative;
 	top:11vh;
-	margin-left:1.2rem;
 }
 
 #getQuote {
