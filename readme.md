@@ -12,4 +12,6 @@ Twitter Bootstrap for making page styling less of a headache.
 
 [Julian Roman] (https://thenounproject.com/romanchov/) and [Mateus Leal] (https://thenounproject.com/mleal/) for sharing their artistic skills!
 	
+[Theresa Thompson] (https://www.flickr.com/photos/theresasthompson/) for making and sharing the cool
+50's texture I used as a background.
 

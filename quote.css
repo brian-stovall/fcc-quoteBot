@@ -1,6 +1,7 @@
 
 body {
-	background:#08B;
+	background-image:url('assets/50sBG.jpg');
+	background-size:cover;
 }
 
 img {
@@ -16,6 +17,13 @@ h1 {
 
 p {
 	font-size:1em;
+}
+
+.btn {
+	border:2px solid black;
+}
+
+.container-fluid {
 }
 
 .page-header {
